@@ -1,13 +1,13 @@
 {
-  "Org1MSP": {
+  "BoschMSP": {
     "chaincode": [
       {
         "name": "mycontract",
         "path": "chaincode/asset",
         "channels": [
-          "mychannel"
+          "supplychain"
         ],
-        "instantiate": true,
+        "instantiate": false,
         "install": true
       }
     ]
